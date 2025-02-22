@@ -8,78 +8,70 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>Danilo Gutierre</h1>
+        <p>Desenvolvedor Web</p>
     </header>
-
-    <section id="home">
-        <div class="intro">
-            <img src="avatar.jpg" alt="Foto Profissional" class="avatar">
-            <h1>Olá, sou Danilo Gutierre</h1>
-            <p>Desenvolvedor focado em criar soluções digitais inovadoras.</p>
-        </div>
-    </section>
 
     <section id="sobre">
         <h2>Sobre Mim</h2>
-        <p>Sou um desenvolvedor apaixonado por tecnologia, com experiência em HTML5, CSS3 e Javascript. Tenho formação em Desenvolvimento de Sistemas e meu foco está em Backend.</p>
+        <p>Sou um entusiasta da tecnologia e estudante de desenvolvimento, com foco em adquirir conhecimentos sólidos em programação e análise de dados. Minha jornada começou com a curiosidade de entender como as coisas funcionam por trás das telas, e desde então tenho me dedicado a aprender e aplicar conceitos em HTML, CSS, JavaScript e outras tecnologias.
+
+            Possuo certificações reconhecidas, como Google Cloud Data Analytics, Google Cloud Computing Foundations, Cisco JavaScript Essentials 1 e 2, Cisco IT Essentials e Cisco IoT, que reforçam minha base técnica e minha capacidade de resolver problemas de forma eficiente. Além disso, tenho experiência prática com projetos desenvolvidos em sala de aula, todos disponíveis no meu GitHub, onde demonstro minha habilidade de transformar ideias em soluções funcionais.
+            
+            Estou sempre em busca de novos desafios e oportunidades para expandir meus conhecimentos e contribuir para projetos inovadores. Meu objetivo é crescer como desenvolvedor, colaborar em equipes dinâmicas e continuar aprendendo com cada experiência.</p>
+    </section>
+
+    <section id="certificacoes">
+        <h2>Certificações</h2>
+        <ul>
+            <li>Google Cloud Data Analytics</li>
+            <li>Google Cloud Computing Foundations</li>
+            <li>Cisco JavaScript Essentials 1 e 2</li>
+            <li>Cisco IT Essentials</li>
+            <li>Cisco IoT</li>
+        </ul>
     </section>
 
     <section id="projetos">
         <h2>Projetos</h2>
         <div class="projeto">
             <h3>Projeto 1</h3>
-            <p>Descrição do projeto e tecnologias utilizadas.</p>
-            <a href="#">Ver mais</a>
+            <p>Descrição do projeto 1.</p>
+            <a href="link-para-github">Ver no GitHub</a>
         </div>
         <div class="projeto">
             <h3>Projeto 2</h3>
-            <p>Descrição do projeto e tecnologias utilizadas.</p>
-            <a href="#">Ver mais</a>
-        </div>
-        <div class="projeto">
-            <h3>Projeto 3</h3>
-            <p>Descrição do projeto e tecnologias utilizadas.</p>
-            <a href="#">Ver mais</a>
+            <p>Descrição do projeto 2.</p>
+            <a href="link-para-github">Ver no GitHub</a>
         </div>
     </section>
 
-    <section id="certificacoes">
-        <h2>Certificações</h2>
-        <div class="certificacao">
-            <h3>Certificação 1</h3>
-            <p>Cisco IT Essentials .</p>
-            <a href="#">Ver mais</a>
-        </div>
-        <div class="certificacao">
-            <h3>Certificação 2</h3>
-            <p>Descrição do projeto e tecnologias utilizadas.</p>
-            <a href="#">Ver mais</a>
-        </div>
-        <div class="certificacao">
-            <h3>Certificação 3</h3>
-            <p>Descrição do projeto e tecnologias utilizadas.</p>
-            <a href="#">Ver mais</a>
-        </div>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
     </section>
 
     <section id="contato">
         <h2>Contato</h2>
-        <ul>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="https://github.com/danilinhotj187">GitHub</a></li>
-            <li><a href="mailto:kjdanilo187@gmail.com.com">kjdanilo187@gmail.com</a></li>
-        </ul>
+        <form action="enviar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 Danilo Gutierre. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Danilo Gutierre</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
